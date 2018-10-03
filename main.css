@@ -13,6 +13,14 @@
 	font-style: normal;
 }
 
+body {
+    background-color: #fad7de;
+}
+
+.header {
+    background-color: #f9d6de;
+}
+
 h1 {
     color: #ea504f;
     font-size: 24px;
@@ -22,7 +30,7 @@ h1 {
 
 h2 {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     text-transform: capitalize;
     letter-spacing: 0.2em;
@@ -37,5 +45,4 @@ p {
 
 .container {
     display: grid;
-    background-color: #fad7de;
 }
