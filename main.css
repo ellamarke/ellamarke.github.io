@@ -25,11 +25,17 @@ h2 {
     font-size: 20px;
     font-weight: 300;
     text-transform: capitalize;
-    letter-spacing: 0.25em;
-    color: #1d1d1b;
+    letter-spacing: 0.2em;
+    color: rgb(83, 83, 83);
 }
 
 p {
     font-family: "Baskerville", "Times", Serif;
     font-size: 14px; 
+    color: rgb(83, 83, 83);
+}
+
+.container {
+    display: grid;
+    background-color: #fad7de;
 }
