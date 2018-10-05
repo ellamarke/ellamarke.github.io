@@ -23,14 +23,14 @@ body {
 
 h1 {
     color: #ea504f;
-    font-size: 24px;
+    font-size: 28px;
     font-family: "YoungSerif-Regular", "Times", Serif;
 
 }
 
 h2 {
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     text-transform: capitalize;
     letter-spacing: 0.2em;
@@ -45,4 +45,6 @@ p {
 
 .container {
     display: grid;
+    grid-template-columns: repeat (6, 1fr);
+    grid-template-rows: repeat (12, 1fr);
 }
