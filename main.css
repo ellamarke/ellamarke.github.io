@@ -56,4 +56,14 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1em;
+    grid-auto-rows: minmax(100px auto);
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.nested >div{
+    border: #333 1px solid;
 }
