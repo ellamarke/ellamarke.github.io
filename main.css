@@ -55,4 +55,5 @@ p {
 .container {
     display: grid;
     grid-template-columns: 40% 30% 40%;
+    grid-gap: 1em;
 }
