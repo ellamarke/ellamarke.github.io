@@ -91,6 +91,8 @@ p {
     color: #6f6f6e;
     grid-gap: 1em;
     grid-column: 1/13;
+    position: fixed;
+    width: 100%;
 }
 
 .header > div{
@@ -134,7 +136,7 @@ padding: 10px 0 20px 80px;
 .intro {
     grid-column: 3/7;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 180px;
 }
 
 .para-intro {
