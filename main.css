@@ -133,10 +133,13 @@ padding: 10px 0 20px 80px;
 
 /* body text */
 
+/* index.html */
+
 .intro {
     grid-column: 3/7;
     text-align: left;
     padding-top: 180px;
+    padding-right: 20px;
 }
 
 .para-intro {
@@ -156,6 +159,82 @@ padding: 10px 0 20px 80px;
     padding-bottom: 20px;
 }
 
+/* about-me.html */
+
+.research-description {
+    grid-column:7/11;
+    grid-row: 1;
+    padding-top: 180px;
+    padding-left: 20px;
+}
+
+.one {
+    grid-column: 3/4;
+    grid-row: 4;
+}
+
+.one-text {
+    grid-column: 5/9;
+    grid-row: 4;
+}
+
+.red-line {
+    border-bottom: 1px solid #e2504f;
+    grid-area: 4/4/4/5;
+}
+
+.two {
+    grid-column: 3/4;
+    grid-row: 5;
+}
+
+.two-text {
+    grid-column: 5/9;
+    grid-row: 5;
+}
+
+.three {
+    grid-column: 3/4;
+    grid-row: 6;
+}
+
+.three-text {
+    grid-column: 5/9;
+    grid-row: 6;
+}
+
+.four {
+    grid-column: 3/4;
+    grid-row: 7;
+}
+
+.four-text {
+    grid-column: 5/9;
+    grid-row: 7;
+}
+
+.five {
+    grid-column: 3/4;
+    grid-row: 8;
+}
+
+.five-text {
+    grid-column: 5/9;
+    grid-row: 8;
+}
+
+
+/* contact-me.hmtl */
+
+.keep-in-touch {
+    grid-row: 2;
+    grid-column: 7/11;
+}
+
+.inline-contact .inline-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
 
 /* photo grid */
 
@@ -178,7 +257,7 @@ footer {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1em;
     grid-column: 1/13;
-    grid-row: 9;
+    grid-row: 13;
     background-color: #e2504f;
 }
 
@@ -195,7 +274,7 @@ footer {
 footer h1 {
     grid-column: 3/11;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .contact-details {
@@ -203,7 +282,7 @@ footer h1 {
     text-align: right;
     display: inline;
     padding-right: 40px;
-    padding-top: 30px;
+    padding-top: 55px;
 }
 
 footer p, 
@@ -215,4 +294,17 @@ footer h1 {
 .contact-links {
     grid-column: 1/7;
     padding: 10px 0 30px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #e2504f;
+}
+
+a:hover footer {
+    color: #f9d6de;
 }
