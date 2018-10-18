@@ -224,13 +224,81 @@ padding: 10px 0 20px 80px;
     margin-left: -10px;
 }
 
-.me {
+.contact-photos {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-gap: 1em;
     grid-row: 3;
-    grid-column: 4/9;
+    grid-column: 3/11;
     margin-top: 50px;
 }
 
+.column-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1em;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.column-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 1em;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.column-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1em;
+    grid-row: 1;
+    grid-column: 3;
+
+}
+
+.me {
+    grid-row: 1/2;
+}
+
 .me img {
+    width: 100%;
+}
+
+
+.notebook {
+    grid-row: 2;
+}
+
+.notebook img {
+    width: 100%;
+}
+
+.wall-hanging {
+    grid-row: 1;
+}
+
+.wall-hanging img {
+    width: 100%;
+}
+
+.bookshelf {
+    grid-row: 2;
+}
+
+.bookshelf img {
+    width: 100%;
+}
+
+.notebook-2 {
+    grid-row: 1;
+}
+
+.notebook-2 img {
     width: 100%;
 }
 
