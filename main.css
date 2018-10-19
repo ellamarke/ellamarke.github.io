@@ -56,6 +56,18 @@ p {
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 640px) {
+    p {
+        font-size: 24px;
+
+    }
+}
+@media screen and (max-width: 640px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
 .inline-link {
     font-style: italic;
     display: inline-block;
