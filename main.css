@@ -58,15 +58,6 @@ p {
     margin-bottom: 10px;
 }
 
-@media screen and (max-device-width: 480px) {
-    .nav {
-        display: none;
-    }
-
-    .contact-details {
-        display: none;
-    }
-}
 
 .inline-link {
     font-style: italic;
@@ -582,4 +573,14 @@ a:hover {
 
 footer a:hover {
     color: white;
+}
+
+@media screen and (max-device-width: 480px) {
+    .nav {
+        display: none;
+    }
+
+    .contact-details {
+        display: none;
+    }
 }
