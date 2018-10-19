@@ -311,13 +311,7 @@ padding: 10px 0 20px 80px;
     margin-top: 50px;
 }
 
-@media screen and (max-device-width: 480px) {
-    .contact-photos {
-        display: block;
-        padding: 0px;
-        margin: 0px;
-    }
-} 
+
  
 
 .column-1 {
@@ -347,6 +341,25 @@ padding: 10px 0 20px 80px;
     grid-column: 3;
 
 }
+
+@media screen and (max-device-width: 480px) {
+    .contact-photos {
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .column-1 {
+        display: block;
+    }
+
+    .column-2 {
+        display: block;
+    }
+
+    .column-3 {
+        display: block;
+    }
+} 
 
 .me {
     grid-row: 1/2;
@@ -467,28 +480,6 @@ padding: 10px 0 20px 80px;
     grid-row: 2;
     margin-top: 180px;
     grid-gap: 40px 20px;
-}
-
-@media screen and (max-device-width: 480px) {
-    .project-grid {
-        display: block;
-    } 
-
-    .project-intro-1 {
-        padding: 0px;
-        margin-top: 100px;
-    }
-
-    .project-intro-1 .project-name {
-        padding: 0px;
-        margin-top: 300px;
-        margin-bottom: 20px;
-    }
-
-    .project-intro-1 h2 {
-        padding-left: 70px;
-    }
-
 }
 
 .project-name {
@@ -612,6 +603,65 @@ padding: 10px 0 20px 80px;
 
 .row-8 {
     grid-row: 8;
+}
+
+@media screen and (max-device-width: 480px) {
+    .project-grid {
+        display: block;
+        margin: 0px;
+
+    } 
+
+.project-intro-1 {
+    padding-top: 300px;
+}
+
+.project-intro-1 .project-title {
+    margin: 0;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+    .project-intro-1 h2 {
+        padding-left: 70px;
+    }
+
+    .project-intro-2 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .project-text-1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .project-text-2 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .project-grid p {
+        text-align: left;
+        padding: 0px;
+    }
+
+    .thanks p {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .thanks .para-intro{
+        text-align: center;
+        margin: 100px 0px 30px 0px;
+    }
+
+    .thanks {
+        margin: 60px 0;
+    }
+
 }
 
 /* footer */
