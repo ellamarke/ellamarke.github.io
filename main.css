@@ -251,7 +251,7 @@ padding: 10px 0 20px 80px;
     grid-column: 3/5;
     grid-row: 4/4;
     margin-top: 0.5em;
-    margin-left: 3.5em;
+    margin-left: 25%;
 }
 
 
@@ -544,19 +544,33 @@ padding: 10px 0 20px 80px;
 }
 
 .quarter-img-1 {
-    grid-column: 25%;
+    grid-column: 1;
 }
 
 .quarter-img-2 {
-    grid-column: 25%;
+    grid-column: 2;
 }
 
 .quarter-img-3 {
-    grid-column: 25%;
+    grid-column: 3;
 }
 
 .quarter-img-4 {
-    grid-column: 25%;
+    grid-column: 4;
+}
+
+.quarter-imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 1/7;
+    grid-gap: 20px;
+}
+
+@media screen and (max-device-width: 480px) {
+    .quarter-imgs {
+        display: block;
+ 
+    } 
 }
 
 .large-img {
