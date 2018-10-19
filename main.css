@@ -58,8 +58,10 @@ p {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 640px) {
-    
+@media screen and (max-width: 375px) {
+    .nav {
+        display: none;
+    }
 }
 
 .inline-link {
