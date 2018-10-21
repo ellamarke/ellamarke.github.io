@@ -15,9 +15,20 @@ body {
     background-color: #ffebf0;
     margin: 0;
     padding: 0;
-    -webkit-text-size-adjust: 250%;
-
 }
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+ body {
+    -webkit-text-size-adjust: 150%;
+    }
+}
+
+@media screen and (max-device-width: 480px) { 
+    body {
+       -webkit-text-size-adjust: 250%;
+       }
+   }
 
 .header {
     background-color: #f9d6de;
@@ -77,7 +88,10 @@ p {
     grid-auto-rows: minmax(100px auto);
 }
 
-@media screen and (max-device-width: 480px) , screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .container p {
         margin: 50px 70px 70px 70px;
     }
@@ -118,7 +132,10 @@ p {
     width: 100%;
 }
 
-@media screen and (max-device-width: 480px) , screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
    .header .nav {
        display: block;
        padding: 0px 0px 50px 0px;
@@ -225,7 +242,10 @@ padding: 10px 0 20px 80px;
     margin-right: 5em;  
 }
 
-@media screen and (max-device-width: 480px) , screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .process-number {
         text-align: left;
         margin: 0px;
@@ -255,7 +275,10 @@ padding: 10px 0 20px 80px;
 }
 
 
-@media screen and (max-device-width: 480px) , screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .red-line {
        display: none;
     } 
@@ -342,7 +365,10 @@ padding: 10px 0 20px 80px;
 
 }
 
-@media screen and (max-device-width: 480px) , screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none){
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .contact-photos {
         display: block;
         padding: 0px;
@@ -429,7 +455,10 @@ padding: 10px 0 20px 80px;
     grid-gap: 20px;
 }
 
-@media screen and (max-device-width: 480px), screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .photo-gallery {
         display: block;
  
@@ -566,7 +595,10 @@ padding: 10px 0 20px 80px;
     grid-gap: 20px;
 }
 
-@media screen and (max-device-width: 480px), screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .quarter-imgs {
         display: block;
  
@@ -619,7 +651,10 @@ padding: 10px 0 20px 80px;
     grid-row: 8;
 }
 
-@media screen and (max-device-width: 480px), screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .project-grid {
         display: block;
         margin: 0px;
@@ -689,7 +724,10 @@ footer {
     background-color: #e2504f;
 }
 
-@media screen and (max-device-width: 480px), screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none), 
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     footer {
         display: block;
     }
@@ -744,7 +782,10 @@ footer a:hover {
     color: white;
 }
 
-@media screen and (max-device-width: 480px), screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+@media screen and (max-device-width: 480px), 
+screen and (-ms-high-contrast: active), 
+screen and (-ms-high-contrast: none),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .nav {
         display: none;
     }
