@@ -105,7 +105,7 @@ figcaption {
 screen and (-ms-high-contrast: active), 
 screen and (-ms-high-contrast: none),
 only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .container p {
+    .container p, .container .client, .container figcaption {
         margin: 50px 70px 70px 70px;
     }
 
@@ -143,6 +143,8 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     position: fixed;
     top: 0;
     width: 100%;
+    min-width: 700px;
+
 }
 
 @media screen and (max-device-width: 480px), 
