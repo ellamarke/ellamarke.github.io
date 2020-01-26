@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway'); */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap');
 
 @font-face {
 	font-family: 'YoungSerif-Regular';
@@ -46,7 +48,7 @@ h1 {
 h2 {
     font-family: "Raleway", sans-serif;
     font-size: 8px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: rgb(83, 83, 83);
@@ -65,7 +67,7 @@ p {
     font-size: 16px; 
     color: rgb(83, 83, 83);
     letter-spacing: 0.4px;
-    line-height: 130%;
+    line-height: 140%;
     margin-bottom: 10px;
 }
 
@@ -76,6 +78,17 @@ p {
     text-decoration: none;
     border-bottom: 1px solid #e2504f;
     margin-bottom: -1px;
+}
+
+figcaption {
+    font-family: "Baskerville", "Times", Serif;
+    font-size: 12px; 
+    color: rgb(83, 83, 83);
+    letter-spacing: 0.4px;
+    line-height: 130%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-style: italic;
 }
 
 /* grid */
@@ -212,6 +225,7 @@ padding: 10px 0 20px 80px;
     text-align: left;
     padding-top: 180px;
     padding-right: 20px;
+    min-width: 300px;
 }
 
 .para-intro {
@@ -231,6 +245,7 @@ padding: 10px 0 20px 80px;
     grid-column:7/11;
     grid-row: 8;
     padding-bottom: 20px;
+    min-width: 300px;
 }
 
 
@@ -572,6 +587,17 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     font-size: 20px;
 }
 
+.client {
+    font-family: "Raleway", sans-serif;
+    font-size: 8px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgb(83, 83, 83);
+    padding-top: 20px;
+}
+
+
 
 .project-intro-1 {
     grid-column: 1/4;
@@ -589,7 +615,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 .project-intro-2 {
     grid-column: 4/7;
     grid-row: 1;
-    padding-top: 83px;
+    padding-top: 103px;
     padding-left: 20px;
 }
 
