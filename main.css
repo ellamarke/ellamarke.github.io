@@ -127,7 +127,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     }
 
     .container .intro {
-        padding-top: 300px;
+        padding-top: 170px;
     }
 
 }
@@ -153,7 +153,7 @@ screen and (-ms-high-contrast: none),
 only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
    .header .nav {
        display: block;
-       padding: 0px 0px 50px 0px;
+       padding: 50px 0px 50px 0px;
        text-align: center;
 
    } 
@@ -165,25 +165,9 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
    .header .name {
        padding-bottom: 0px;
        text-align: center;
+       display: none;
    }
 
-   .header .name img {
-       width: 300px;
-       padding: 0;
-       padding-right: 10px;
-   }
-
-   .header h1 {
-       padding-bottom: 20px;
-       text-align: center;
-   }
-
-   .header .name > h2 {
-       padding: 0 0 20px 0;
-   }
-
-   .header .name > h1 {
-    padding: 10px 0 20px 0;
 }
 }
 
