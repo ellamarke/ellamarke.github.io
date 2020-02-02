@@ -167,6 +167,11 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
        text-align: center;
    }
 
+   .header .name img {
+       width: 300px;
+       padding: 0;
+   }
+
    .header h1 {
        padding-bottom: 20px;
        text-align: center;
@@ -196,7 +201,12 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 }
 
 .name > h2 {
-padding: 10px 0 20px 80px;
+padding: 0px 0 20px 80px;
+}
+
+.name  img {
+    width: 130px;
+    padding: 10px 0 0px 60px;
 }
 
 .nav {
