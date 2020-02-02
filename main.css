@@ -169,7 +169,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
    }
 
 }
-}
+
 
 
 .header > div {
@@ -768,7 +768,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     } 
 
 .project-intro-1 {
-    padding-top: 300px;
+    padding-top: 170px;
 }
 
 .project-intro-1 .project-title {
