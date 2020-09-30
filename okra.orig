@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='/stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="/">home</a></li>
+    <li class="menu-work"><a href="/work">work</a></li>
+    <li class="menu-about"><a href="/about">about</a></li>
+    <li class="menu-contact"><a href="/contact">contact</a></li>
+</ul>
+
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title title-more-leading">OKRA.</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">grab a bowl and tuck in!</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>project type</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Independent University Project</td>
+                <td>Branding / Pattern Creation / Restaurant Asset Design</td>
+                <td>West African Food / Community / Culture</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <div class="row-1 centre-img-large">
+            <div class="picture-frame">
+                <img src="/images/okra-menu.jpg"></img>
+            </div>
+            <figcaption>The restaurant menu is split into layers which can be easily swapped out to reflect seasonal
+                changes to the recipes.
+            </figcaption>
+        </div>
+
+        <div class="row-2 caption">
+            <table class="caption-table caption-1">
+                <thead>
+                    <tr>
+                        <th class="main-head">where's the west african food?</th>
+                        <th class="number-head">one</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">West African food is largely missing from the British restaurant scene. The UK’s
+                            cooking establishment appear unwilling to welcome chefs cooking the region’s foods into
+                            their inner circles and the public are often unfamiliar with its culinary traditions.
+                            Traditional restaurant spaces can feel far from the inherently social ethos of West African
+                            cooking, so struggle to celebrate the culinary culture adequately. I wanted to explore how a
+                            restaurant could be designed to celebrate and embrace West African food in a British
+                            context.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="centre">
+                <div class="seperator seperator-1"></div>
+            </div>
+
+            <table class="caption-table caption-2">
+                <thead>
+                    <tr>
+                        <th class="main-head">where's the west african food?</th>
+                        <th class="number-head">two</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">This project was one strand of a wider project examining how West African food
+                            could be successfully introduced into mainstream British taste. View its sister project
+                            <a href="food-of-paradise">here</a>.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row-3 medium-left-img-2 top-margin">
+            <div class="picture-frame">
+                <img src="/images/okra-bottle.jpg"></img>
+            </div>
+            <figcaption>The earthy tones of the brand are inspired by my dad's memories of the landscapes of Sierra
+                Leone, where our family originated: red and orange, everywhere.
+            </figcaption>
+        </div>
+
+        <div class="row-3 large-right-img roundel-img-right">
+            <div class="picture-frame">
+                <img src="/images/roundels/order.svg" class="roundel-right"></img>
+                <img src="/images/okra-notes.jpg"></img>
+            </div>
+            <figcaption>All assets, down to the notebook and pencils staff use to take down orders, feature the same
+                open, warm tone.
+            </figcaption>
+        </div>
+
+        <table class="row-4 caption caption-table">
+            <thead>
+                <tr>
+                    <th class="main-head">get comfortable!</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">OKRA is restaurant concept which places domesticity at the centre of its environment
+                        by subverting the principles we have come to expect in the restaurant space: here, the customers
+                        sit on long tables, often next to strangers. Dishes are often served in large sharing pots,
+                        where customers can ask for complimentary second helpings, whilst free-to-read books line the
+                        shelves.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h5 class="row-5 quote">Room for one more <br>at the table?</h5>
+
+        <div class="row-6 large-left-img top-margin">
+            <div class="picture-frame">
+                <img src="/images/okra-signage.jpg"></img>
+            </div>
+            <figcaption>Signage across the restaruant encourages patrons to get stuck in and get sociable.
+            </figcaption>
+        </div>
+
+        <div class="row-6 medium-right-img-3">
+            <div class="picture-frame">
+                <img src="/images/okra-shirt.jpg"></img>
+            </div>
+            <figcaption>The t-shirts, designed for the staff, are covered in the same andinkra-inspired symbols found
+                across the brand.
+            </figcaption>
+        </div>
+
+        <table class="row-7 caption caption-table">
+            <thead>
+                <tr>
+                    <th class="main-head">symbols and patterns</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">The visuals balance sophistication with a sense of domesticity, transforming the
+                        formal dining environment into one which feels relaxed and inherently social. The use of
+                        patterning makes particular reference to adinkra symbology, found across West African art: some
+                        symbols with meanings linked to
+                        togetherness, unity and sociability are lifted directly from ancient motifs, whilst other
+                        symbols were newly created in line with this ethos and visual style. Layering of textures,
+                        patterns and colours creates a tactile, immersive environment.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row-8 centre-img-large roundel-img">
+            <div class="picture-frame">
+                <img src="/images/roundels/eat-lots.svg" class="roundel"></img>
+                <img src="/images/okra-letters.jpg"></img>
+            </div>
+            <figcaption>An invitation to the restaurant's grand opening.
+            </figcaption>
+        </div>
+
+
+
+
+        <div class="row-9 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
+
+            <div class="go-back centre">
+                <p><a href="work">go back to view more of my work</a></p>
+            </div>
+
+        </div>
+
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
+</body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
+
+</html>

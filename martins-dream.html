@@ -2,178 +2,297 @@
 <html>
 
 <head>
-    <title>
-        Ella Marke | My Work
-    </title>
-    <link rel="shortcut icon" type="image/png" href="images/Favicon-01.png">
-    <link href="main.css" type="text/css" rel="stylesheet">
-
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <link rel='stylesheet' href='stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="http://localhost:3000/site.webmanifest">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="index.html">home</a></li>
+    <li class="menu-work"><a href="work.html">work</a></li>
+    <li class="menu-about"><a href="about.html">about</a></li>
+    <li class="menu-contact"><a href="contact.html">contact</a></li>
+</ul>
 
-            <div class="name">
-                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                <h2>
-                    <a href="index.html">GRAPHIC DESIGNER / COPYWRITER</a>
-                </h2>
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title">Who Killed <br>Martin's Dream?</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">why is martin luther king, jr.'s dream still a dream?</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>project type</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>D&AD Awards Brief</td>
+                <td>Writing / Photography / Typography / Book Design</td>
+                <td>Anti-Racism / America / Politics</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <div class="row-1 centre-img-large">
+            <div class="picture-frame">
+                <img src="images/martin-poster"></img>
             </div>
-
-            <ul class="nav">
-                <li>
-                    <h2><a href="index.html">Home</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2 class="open"><a href="my-work.html">My Work</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="about-me.html">About Me</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="contact-me.html">Contact Me</a>
-                    </h2>
-                </li>
-            </ul>
+            <figcaption>A reminder that apathy isn't enough.
+            </figcaption>
         </div>
 
+        <div class="row-2 caption double-caption">
+            <table class="caption-table caption-1">
+                <thead>
+                    <tr>
+                        <th class="main-head">where are we today?</th>
+                        <th class="number-head">one</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Systemic and institutionalised racism persists because the people with the power
+                            to change it either don’t care enough to change or care very much about those systems
+                            staying in
+                            place.
 
+                            This campaign seeks to educate its audience about the very real effects of racism in society
+                            — to make people feel uncomfortable in continuing their pattern of apathy when aware of
+                            racial injustices.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="centre">
+                <div class="seperator seperator-1"></div>
+            </div>
 
-        <div class="project-grid">
+            <table class="caption-table caption-2">
+                <thead>
+                    <tr>
+                        <th class="main-head">where are we today?</th>
+                        <th class="number-head">two</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">The campaign uses the phrase ‘Who Killed Martin's Dream?' (referencing Martin
+                            Luther King, Jr.'s <em>I Have a Dream</em> speech) as an urgent and pressing slogan to
+                            emphasise how
+                            the dreams of the civil rights era have been lost to a system which still oppresses people
+                            of colour.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-            <div class="project-intro-1 row-1">
-                <p class="project-title">
-                    <span class="project-name">Who Killed Martin's Dream?</span>
-                </p>
-                <h2>A multi-output campaign focused
-                    on institutional racism in the USA.</h2>
-                <p></p>
+        <h5 class="row-3 quote">How are you <br>helping to dismantle racism today?</h5>
 
-                <div class="client">
-                    UNIVERSITY PROJECT.
+        <div class="row-4 centre-img-large roundel-img">
+            <div class="img">
+                <div class="picture-frame">
+                    <img src="images/roundels/justice.svg" class="roundel"></img>
+                    <img src="images/martin-closed-book"></img>
                 </div>
-
-                <p>Systemic and institutionalised racism persists because the people with the power to change it either
-                    don’t care enough or care very much about those systems staying in place. </p>
-            </div>
-
-            <div class="project-intro-2">
-                <p></p>
-                <p>This campaign seeks to educate its audience about the very real effects of racism in society – to
-                    make people feel uncomfortable in continuing their pattern of apathy when aware of racial
-                    injustices.
-                </p>
-            </div>
-
-            <div class="head-img">
-                <figure>
-                    <img src="images/work/small-size/martin-poster" alt="poster which reads 'who killed Martin's Dream?"
-                        .>
-                    <figcaption>A poster which reminds the viewer that apathy is not enough.</figcaption>
-                </figure>
-            </div>
-
-            <div class="project-text-centre">
-                <p>The campaign uses the phrase ‘Who Killed Martin's Dream?' (referencing Martin Luther King Jr's I
-                    Have
-                    a Dream speech) as an urgent and pressing slogan
-                    to emphasise how the dreams of the civil rights era
-                    have been lost to a system which still oppresses people
-                    of colour.</p>
-            </div>
-
-            <div class="large-img">
-                <figure>
-                    <img src="images/work/small-size/martin-closed-book"
-                        alt="A closed book entitled who killed martins's dream?">
-                    <figcaption>The front and back cover of the short book which examines statistics relating to the
-                        position of African Americans in the contemporary United States.</figcaption>
-                </figure>
-            </div>
-
-            <div class="project-text-centre">
-                <p>
-                    The typeface and infographics are formed from dead, shrivelled petals, at once reflecting death, but
-                    simultaneously a sense of hope. By using flowers and saturated colours, the campaign visuals reflect
-                    the aesthetic of mid-century civil rights posters, which drew on an intense need for hope amongst
-                    the anger, frustration and sorrow. </p>
-            </div>
-
-            <div class="large-img">
-                <figure>
-                    <img src="images/work/small-size/martin-open-book" alt="An open book">
-                    <figcaption>One of the inside spreads of the book, looking closer at institional racism in the
-                        American education system.</figcaption>
-                </figure>
-            </div>
-
-            <div class="project-text-1">
-                <p>With education at the heart of the campaign, finding new ways of understanding complex data and
-                    socio-economic politics was crucial. A short book explores the current position of African
-                    Americans through the lens of the original ten-point programme of the Black Panther Party published
-                    in the 1960s. </p>
-            </div>
-
-            <div class="project-text-2">
-                <p>In which ways have these demands for human rights been fulfilled? In which ways have civil rights
-                    processes remained stagnant or even reverted since the mid-century? Spoiler: not a huge amount has
-                    changed — in fact, not one of the original ten demands have been fulfilled. With economic inequality
-                    deeply entrenched in American society, racial equality is still desperately far away. </p>
-            </div>
-
-
-
-            <div class="thanks">
-                <p><span class="para-intro">Thanks for taking a look at this project!</span></p>
-                <p><a href="my-work.html"> <span class="inline-link">Go back</span></a> to see more of my work.</p>
+                <figcaption>The front and back cover of the short book which examines statistics relating to the
+                    position of Black people in the contemporary United States.
+                </figcaption>
             </div>
 
         </div>
 
-
-
-        <footer>
-            <div class="contact-links">
-                <h1>Contact me!</h1>
-                <ul class=footer-nav>
-                    <li>
-                        <h2><a href="https://www.instagram.com/ellamarkedesign/" target="_blank">Instagram</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://the-dots.com/users/ella-marke-294185" target="_blank">The Dots</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.behance.net/ellamarke" target="_blank">Behance</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.linkedin.com/in/ellamarke/" target="_blank">LinkedIn</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href=mailto:ella.me.marke@gmail.com>Email</a></h2>
-                        <h2>
-                    </li>
-                </ul>
+        <div class="row-5 caption double-caption">
+            <table class="caption-table caption-4">
+                <thead>
+                    <tr>
+                        <th class="main-head">the ten-point programme</th>
+                        <th class="number-head">one</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">With education at the heart of the campaign, finding new ways of understanding
+                            complex data and socio-economic politics was crucial. A short book explores the current
+                            position of Black Americans through the lens of the original ten-point programme of the
+                            Black Panther Party, first published in the 1960s.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="centre">
+                <div class="seperator seperator-1"></div>
             </div>
 
-            <div class=contact-details>
-                <p>+44 7805 760 380</p>
-                <p><a href=mailto:ella.me.marke@gmail.com>ella.me.marke@gmail.com</a></p>
+            <table class="caption-table caption-2">
+                <thead>
+                    <tr>
+                        <th class="main-head">the ten-point programme</th>
+                        <th class="number-head">two</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">In which ways have these demands for human rights been fulfilled? In which ways
+                            have civil rights processes remained stagnant or even reverted since the mid-century?
+                            Spoiler: not a huge amount has changed — in fact, not one of the original ten demands have
+                            been fulfilled. With economic inequality deeply entrenched in American society, racial
+                            equality is still desperately far away.
+
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="row-6 centre-img-large">
+            <div class="picture-frame">
+                <img src="images/martin-open-book.jpg"></img>
+            </div>
+            <figcaption>One of the inside spreads of the book, looking closer at institional racism in the American
+                education system.
+            </figcaption>
+        </div>
+
+
+
+
+        <div class="row-7 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
+
+            <div class="go-back centre">
+                <p><a href="work.html">go back to view more of my work</a></p>
             </div>
 
-        </footer>
+        </div>
+
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
 
     </div>
 
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
 </body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
 
 </html>

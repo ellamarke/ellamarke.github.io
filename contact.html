@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="http://localhost:3000/site.webmanifest">
+</head>
+
+<body>
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="index.html">home</a></li>
+    <li class="menu-work"><a href="work.html">work</a></li>
+    <li class="menu-about"><a href="about.html">about</a></li>
+    <li class="menu-contact"><a href="contact.html">contact</a></li>
+</ul>
+
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><head>
+    <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+</head>
+
+<div class="page-intro contact">
+    <h1 class="title">Hey, let's talk.</h1>
+
+    <h3 class="sub-heading">IF THERE'S ONE THING I LOVE AS MUCH AS DESIGN,<br>
+IT'S TALKING ABOUT DESIGN.</h3>
+
+    <div class="title-seperator"></div>
+</div>
+
+
+<div class="main-content">
+
+    <div class="self-portrait">
+        <img src="images/self-portrait-border.png"></img>
+    </div>
+
+    <div class="contact-rectangles">
+
+        <div class="email-me">
+            <span><a href="mailto:ella.me.marke@gmail.com">Email me</a></span>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="link-me">
+            <span><a href="https://www.linkedin.com/in/ellamarke/">Link with me</a></span>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="instagram-me">
+            <span><a href="https://www.instagram.com/ellamarkedesign/">Instagram me</a></span>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="connect-me">
+            <span><a href="https://the-dots.com/users/ella-marke-294185">Connect with me</a></span>
+        </div>
+
+    </div>
+
+    <div class="necklace">
+        <img src="images/necklace.png">
+    </div>
+
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
+</body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
+
+</html>

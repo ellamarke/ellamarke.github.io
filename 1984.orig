@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='/stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="/">home</a></li>
+    <li class="menu-work"><a href="/work">work</a></li>
+    <li class="menu-about"><a href="/about">about</a></li>
+    <li class="menu-contact"><a href="/contact">contact</a></li>
+</ul>
+
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title title-more-leading">1984.</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">big brother is ungood!</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>client</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Theatre Group Leeds</td>
+                <td>Branding / Poster Design</td>
+                <td>Theatre / Technology / Politics</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <table class="row-1 caption caption-table">
+            <thead>
+                <tr>
+                    <th class="main-head">2+2=5</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">A theatre company in Leeds approached me with their concept for a modernised
+                        imagining of Orwell's 1984, inspired by the contemporary omnipresence of technology. I decided
+                        to play on their use of technology in the production by using the familiar blue crash screen to
+                        recreate and re-position the ominous and familiar words of Big Brother.
+
+                        This ended up being an unused concept — the company decided they just wanted an illustration of
+                        a CCTV camera instead. Alas.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row-2 centre-img">
+            <div class="picture-frame">
+                <img src="/images/1984-texture-1.jpg"></img>
+            </div>
+        </div>
+
+        <div class="row-3 centre-img">
+            <div class="picture-frame">
+                <img src="/images/1984-texture-2.jpg"></img>
+            </div>
+        </div>
+
+        <div class="row-4 centre-img">
+            <div class="picture-frame">
+                <img src="/images/1984-texture-3.jpg"></img>
+            </div>
+        </div>
+
+
+        <div class="row-5 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
+
+            <div class="go-back centre">
+                <p><a href="work">go back to view more of my work</a></p>
+            </div>
+
+        </div>
+
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
+</body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
+
+</html>

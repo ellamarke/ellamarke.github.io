@@ -2,133 +2,211 @@
 <html>
 
 <head>
-    <title>
-        Ella Marke | My Work
-    </title>
-    <link rel="shortcut icon" type="image/png" href="images/Favicon-01.png">
-    <link href="main.css" type="text/css" rel="stylesheet">
-
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <link rel='stylesheet' href='stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="http://localhost:3000/site.webmanifest">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="index.html">home</a></li>
+    <li class="menu-work"><a href="work.html">work</a></li>
+    <li class="menu-about"><a href="about.html">about</a></li>
+    <li class="menu-contact"><a href="contact.html">contact</a></li>
+</ul>
 
-            <div class="name">
-                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                <h2>
-                    <a href="index.html">GRAPHIC DESIGNER / COPYWRITER</a>
-                </h2>
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title title-more-leading">Celebrating Leica.</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">Complex machinery and iconic kisses.</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>project type</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Personal Project</td>
+                <td>Illustration</td>
+                <td>Photography / History / Poster Series</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <table class="row-1 caption caption-table">
+            <thead>
+                <tr>
+                    <th class="main-head">long live leica!</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Many of the world's favourite photographs were taken with Leica cameras. It is the
+                        brand's commitment to both technical excellence and creativity which has resulted in its
+                        products becoming the vehicle for the creation of iconic works of art.
+
+                        The poster series explores this combination of art and technical precision with a technical
+                        review of the compositions and shapes found within some of street photography's most important
+                        photographs.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row-2 centre-img">
+            <div class="picture-frame">
+                <img src="images/leica-main.jpg"></img>
             </div>
+        </div>
 
-            <ul class="nav">
-                <li>
-                    <h2><a href="index.html">Home</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2 class="open"><a href="my-work.html">My Work</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="about-me.html">About Me</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="contact-me.html">Contact Me</a>
-                    </h2>
-                </li>
-            </ul>
+        <div class="row-3 centre-img">
+            <div class="picture-frame">
+                <img src="images/leica-2.jpg"></img>
+            </div>
+        </div>
+
+        <div class="row-4 centre-img">
+            <div class="picture-frame">
+                <img src="images/leica-3.jpg"></img>
+            </div>
         </div>
 
 
+        <div class="row-5 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
 
-        <div class="project-grid">
-
-            <div class="project-intro-1 row-1">
-                <p class="project-title">
-                    <span class="project-name">Celebrating Leica.</span>
-                </p>
-                <h2>A poster series exploring the technical beauty behind iconic
-                    photos.</h2>
-                <p></p>
-
-                <div class="client">
-                    PERSONAL PROJECT.
-                </div>
-
-                <p>Many of the world's favourite photographs were taken with Leica cameras. It is the brand's commitment
-                    to both technical excellence and creativity which has resulted in its products becoming the vehicle
-                    for the creation of iconic works of art.</p>
-            </div>
-
-            <div class="project-intro-2">
-                <p></p>
-                <p>The poster series explores this combination of art and technical precision with a technical review
-                    of the compositions and shapes found within some of street photography's most important
-                    photographs.
-                </p>
-            </div>
-
-            <div class="head-img">
-                <img src="images/work/small-size/leica-1.jpg" alt="an old Leica photo re-imagined">
-            </div>
-
-            <div class="large-img">
-                <img src="images/work/small-size/leica-2.jpg" alt="an old Leica photo re-imagined">
-            </div>
-
-            <div class="large-img">
-                <img src="images/work/small-size/leica-3.jpg" alt="an old Leica photo re-imagined">
-            </div>
-
-            <div class="thanks">
-                <p><span class="para-intro">Thanks for taking a look at this project!</span></p>
-                <p><a href="my-work.html"> <span class="inline-link">Go back</span></a> to see more of my work.</p>
+            <div class="go-back centre">
+                <p><a href="work.html">go back to view more of my work</a></p>
             </div>
 
         </div>
 
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
 
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
 
-        <footer>
-            <div class="contact-links">
-                <h1>Contact me!</h1>
-                <ul class=footer-nav>
-                    <li>
-                        <h2><a href="https://www.instagram.com/ellamarkedesign/" target="_blank">Instagram</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://the-dots.com/users/ella-marke-294185" target="_blank">The Dots</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.behance.net/ellamarke" target="_blank">Behance</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.linkedin.com/in/ellamarke/" target="_blank">LinkedIn</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href=mailto:ella.me.marke@gmail.com>Email</a></h2>
-                        <h2>
-                    </li>
-                </ul>
-            </div>
-
-            <div class=contact-details>
-                <p>+44 7805 760 380</p>
-                <p><a href=mailto:ella.me.marke@gmail.com>ella.me.marke@gmail.com</a></p>
-            </div>
-
-        </footer>
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
 
     </div>
 
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
 </body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
 
 </html>

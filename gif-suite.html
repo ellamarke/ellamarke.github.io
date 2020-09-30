@@ -2,173 +2,269 @@
 <html>
 
 <head>
-    <title>
-        Ella Marke | My Work
-    </title>
-    <link rel="shortcut icon" type="image/png" href="images/Favicon-01.png">
-    <link href="main.css" type="text/css" rel="stylesheet">
-
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <link rel='stylesheet' href='stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="http://localhost:3000/site.webmanifest">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="index.html">home</a></li>
+    <li class="menu-work"><a href="work.html">work</a></li>
+    <li class="menu-about"><a href="about.html">about</a></li>
+    <li class="menu-contact"><a href="contact.html">contact</a></li>
+</ul>
 
-            <div class="name">
-                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                <h2>
-                    <a href="index.html">GRAPHIC DESIGNER / COPYWRITER</a>
-                </h2>
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title title-more-leading">University of Sheffield GIF Sets</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">let's go uni! let's go uni! let's go uni!</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>client</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The University of Sheffield</td>
+                <td>Illustration</td>
+                <td>Higher Education / Social Media / GIFs</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <div class="row-1 centre-img-large">
+            <div class="picture-frame">
+                <img src="images/gif-sets-header.jpg"></img>
+            </div>
+        </div>
+
+        <table class="row-2 caption-table caption">
+            <thead>
+                <tr>
+                    <th class="main-head">time for school spirit!</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">I designed and illustrated several suites of animated GIFs for The University of
+                        Sheffield to help shape a more modern and engaging approach to their student communications.
+
+                        Reflecting different aspects of university life, each new set has received huge engagement from
+                        the student body, gaining 14.1 million total views across social media platforms. The suite was
+                        animated by my co-worker <a href="http://www.kieranbentley.com/">Kieran Bentley.</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <div class="row-3 photo-grid-4-col">
+
+            <div class="photo-grid-4-col-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/grad-1.gif"></img>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/grad-2.gif"></img>
+                    </div>
+                </div>
+
             </div>
 
-            <ul class="nav">
-                <li>
-                    <h2><a href="index.html">Home</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2 class="open"><a href="my-work.html">My Work</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="about-me.html">About Me</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="contact-me.html">Contact Me</a>
-                    </h2>
-                </li>
-            </ul>
+            <div class="photo-grid-4-col-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/sheffield-1.gif"></img>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/sheffield-2.gif"></img>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="photo-grid-4-col-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/grad-3.gif"></img>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/grad-4.gif"></img>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="photo-grid-4-col-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/sheffield-3.gif"></img>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/gifs/sheffield-4.gif"></img>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
 
 
-        <div class="project-grid">
+        <div class="row-4 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
 
-            <div class="project-intro-1 row-1">
-                <p class="project-title">
-                    <span class="project-name">University of Sheffield GIF Suites.</span>
-                </p>
-                <h2>Suites of GIFs to get students more involved in their university.</h2>
-                <p></p>
-
-                <div class="client">
-                    CLIENT: THE UNIVERSITY OF SHEFFIELD.
-                </div>
-
-                <p>I designed and illustrated several suites of animated GIFs for <em>The University of Sheffield</em>
-                    to help
-                    shape a more modern and engaging approach to their student communications.
-                </p>
-            </div>
-
-            <div class="project-intro-2">
-                <p></p>
-                <p>Reflecting different aspects of university life, each new set has received huge engagement from the
-                    student body, gaining 14.1 million total views across social media platforms. The suite
-                    was animated by my co-worker <span class="inline-link"><a href="http://www.kieranbentley.com/">Kieran
-                            Bentley</a></span>.
-                </p>
-            </div>
-
-            <div class="head-img">
-                <img src="images/work/small-size/gif-sets-header.jpg"
-                    alt="Stickers".>
-            </div>
-
-            <div class="quarter-imgs">
-
-                <div class="quarter-img-1">
-                    <img src="images/work/gifs/grad-1.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-                <div class="quarter-img-2">
-                    <img src="images/work/gifs/grad-2.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-                <div class="quarter-img-3">
-                    <img src="images/work/gifs/grad-3.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-                <div class="quarter-img-4">
-                    <img src="images/work/gifs/grad-4.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-            </div>
-
-            <div class="quarter-imgs">
-
-                <div class="quarter-img-1">
-                    <img src="images/work/gifs/sheffield-1.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-                <div class="quarter-img-2">
-                    <img src="images/work/gifs/sheffield-2.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-                <div class="quarter-img-3">
-                    <img src="images/work/gifs/sheffield-3.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-                <div class="quarter-img-4">
-                    <img src="images/work/gifs/sheffield-4.gif" alt="a blue GIF about Sheffield">
-                </div>
-
-            </div>
-
-
-
-
-
-
-
-            <div class="thanks">
-                <p><span class="para-intro">Thanks for taking a look at this project!</span></p>
-                <p><a href="my-work.html"> <span class="inline-link">Go back</span></a> to see more of my work.</p>
+            <div class="go-back centre">
+                <p><a href="work.html">go back to view more of my work</a></p>
             </div>
 
         </div>
 
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
 
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
 
-        <footer>
-            <div class="contact-links">
-                <h1>Contact me!</h1>
-                <ul class=footer-nav>
-                    <li>
-                        <h2><a href="https://www.instagram.com/ellamarkedesign/" target="_blank">Instagram</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://the-dots.com/users/ella-marke-294185" target="_blank">The Dots</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.behance.net/ellamarke" target="_blank">Behance</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.linkedin.com/in/ellamarke/" target="_blank">LinkedIn</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href=mailto:ella.me.marke@gmail.com>Email</a></h2>
-                        <h2>
-                    </li>
-                </ul>
-            </div>
-
-            <div class=contact-details>
-                <p>+44 7805 760 380</p>
-                <p><a href=mailto:ella.me.marke@gmail.com>ella.me.marke@gmail.com</a></p>
-            </div>
-
-        </footer>
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
 
     </div>
 
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
 </body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
 
 </html>

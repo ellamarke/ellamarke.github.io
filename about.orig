@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='/stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="/">home</a></li>
+    <li class="menu-work"><a href="/work">work</a></li>
+    <li class="menu-about"><a href="/about">about</a></li>
+    <li class="menu-contact"><a href="/contact">contact</a></li>
+</ul>
+
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><head>
+    <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+</head>
+
+<div class="page-intro about">
+    <h1 class="title">So, here I am.</h1>
+
+    <h3 class="sub-heading">I'm more than just a pretty portfolio.</h3>
+
+    <div class="title-seperator"></div>
+</div>
+
+
+<div class="main-grid">
+
+
+
+
+    <div class="row-1 caption double-caption">
+        <table class="caption-table caption-1">
+            <thead>
+                <tr>
+                    <th class="main-head">LET'S DO SOMETHING GREAT TOGETHER</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Through a strong conviction that design is a powerful tool, I believe that all
+                        projects can have a positive impact, no matter how small. Whether it's marketing design which
+                        encourages a new
+                        audience to <a href="/nuns">get excited by theatre,</a> video production which
+                        <a href="anti-racism">confronts racism in higher education </a>or discovering radical new ways
+                        to <a href="/mixing-bowl">tackle food
+                            poverty</a>, many of my projects question how design can
+                        make a difference.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="centre">
+            <div class="seperator seperator-1"></div>
+        </div>
+
+        <table class="caption-table caption-2">
+            <thead>
+                <tr>
+                    <th class="main-head">LET'S DO SOMETHING GREAT TOGETHER</th>
+                    <th class="number-head">two</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">I use a rich, research-led process. It's important to me that all the work I produce
+                        doesn't just look great, but comes from a smart concept led by loads of contextual research. If
+                        you want to see case studies of how I've applied research to my work in the past, <a
+                            href="/work"> find examples here. </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row-2 large-left-img">
+        <div class="picture-frame">
+            <img src="/images/about-bookshelf.jpg"></img>
+        </div>
+    </div>
+
+    <div class="row-2 medium-right-img-3 roundel-img top-margin bottom-margin">
+        <div class="picture-frame">
+            <img src="/images/roundels/hey.svg" class="roundel"></img>
+            <img src="/images/about-notebook.jpg"></img>
+        </div>
+    </div>
+
+
+</div>
+
+<hr>
+
+<div class="testimonial-section">
+
+    <a id="testimonial-jump">
+        <div class="testimonial-sub-heading">
+            <h6>Some testimonials <br>from clients.</h6>
+        </div>
+
+    </a>
+
+    <div class="seperator"></div>
+
+    <table class="testimonial testimonial-1">
+        <thead>
+            <tr>
+                <th class="client-name">Kieran Bentley</th>
+                <th class="company-name">Digital Designer, TUoS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Ella's an absolute pleasure to work with. I've worked with her on several animation
+                    projects and she consistently brings bold, exciting designs to the table. It's rare to find a
+                    designer as consistent and hardworking as her, who can turn work around so quickly. It's no surprise
+                    she's been a huge favourite with colleagues and senior management alike.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="seperator"></div>
+
+    <table class="testimonial testimonial-2">
+        <thead>
+            <tr>
+                <th class="client-name">Laura Evans</th>
+                <th class="company-name">Founder, Our Kind</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Ella was awesome to work with. We worked together on a couple of projects in 2019 and
+                    both times, Ella delivered loads of ideas and was fearless in her execution. It was great to have a
+                    designer on board who understood the brief and could see my vision for the project immediately. I
+                    truly enjoyed collaborating with her!
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="seperator"></div>
+
+    <table class="testimonial testimonial-3">
+        <thead>
+            <tr>
+                <th class="client-name">Valerie Sadoh</th>
+                <th class="company-name">Founder, House of Mahogany</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Ella is fantastic to work with, she is both professional and transparent and guides you
+                    through the process with ease. Ella is a great listener thus capturing your vision with minimal back
+                    and forth. Her excitement and enthusiasm when approaching work makes it all the most empowering.
+                    Ella is extremely talented.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+     <div class="seperator"></div>
+
+    <table class="testimonial testimonial-4">
+        <thead>
+            <tr>
+                <th class="client-name">Sean Lovell</th>
+                <th class="company-name">Filmmaker, Director and Editor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Ella’s beautiful illustrations helped bring our animated documentary project to life. I
+                    was really impressed with her talented illustration work and attention to detail to represent
+                    Mozambican culture accurately. I hope we can work together again in the future.
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
+</body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
+
+</html>

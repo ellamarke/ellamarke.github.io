@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="http://localhost:3000/site.webmanifest">
+</head>
+
+<body>
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="index.html">home</a></li>
+    <li class="menu-work"><a href="work.html">work</a></li>
+    <li class="menu-about"><a href="about.html">about</a></li>
+    <li class="menu-contact"><a href="contact.html">contact</a></li>
+</ul>
+
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><head>
+    <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+
+</head>
+
+<div class="page-intro no-padding">
+    <h1 class="title">This is what <br> I can do.</h1>
+
+    <h3 class="sub-heading">Rather than just talking the talk, here's me walking the walk.</h3>
+
+    <div class="title-seperator"></div>
+</div>
+
+
+<div class="row">
+    <div class="column">
+
+        <div class="img work-sally">
+            <div class="picture-frame">
+                <a href="sally-clarke.html" class="images-rotation"
+                    data-images='["/images/cropped/sally-clarke-stamps.jpg", "/images/sally-clarke-stickers.jpg", "/images/sally-clarke-telegram.jpg", "/images/sally-clarke-tiki.jpg"]'>
+                    <img src="images/cropped/sally-clarke-stamps.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+        <div class="img work-paradise">
+            <div class="picture-frame">
+                <a href="food-of-paradise.html" class="images-rotation"
+                    data-images='["/images/transform/paradise-plantain-chips.jpg", "/images/transform/paradise-rice.jpg", "/images/transform/paradise-jar.jpg", "/images/transform/paradise-yassa.jpg", "/images/transform/paradise-sticker.jpg"]'>
+                    <img src="images/transform/paradise-plantain-chips.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="img work-mixing-bowl roundel-img">
+            <div class="picture-frame">
+                <img src="images/roundels/cooking.svg" class="roundel"></img>
+                <a href="mixing-bowl.html" class="images-rotation"
+                    data-images='["/images/mixing-bowl-book.jpg", "/images/transform/mixing-bowl-letter.jpg", "/images/transform/mixing-bowl-laptop.jpg", "/images/transform/mixing-bowl-poster.jpg"]'>
+                    <img src="images/mixing-bowl-book.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="img work-okra">
+            <div class="picture-frame">
+                <a href="okra.html" class="images-rotation"
+                    data-images='["/images/okra-menu.jpg", "/images/transform/okra-bottle.jpg", "/images/transform/okra-letter.jpg", "/images/transform/okra-shirt.jpg", "/images/transform/okra-signage.jpg", "/images/transform/okra-notes.jpg"]'>
+                    <img src="images/okra-menu.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="img work-odyssey">
+            <div class="picture-frame">
+                <a href="odyssey.html" class="images-rotation"
+                    data-images='["/images/odyssey-homepage.jpg", "/images/transform/odyssey-box.jpg", "/images/transform/odyssey-mobile.jpg", "/images/transform/odyssey-products.jpg", "/images/transform/odyssey-stationary.jpg"]'>
+                    <img src="images/odyssey-homepage.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+        <div class="img work-1984">
+            <div class="picture-frame">
+                <a href="1984.html" class="images-rotation"
+                    data-images='["/images/1984-texture-1.jpg", "/images/1984-texture-2.jpg", "/images/1984-texture-3.jpg"]'>
+                    <img src="images/1984-texture-1.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+        <div class="img work-gifs">
+            <div class="picture-frame">
+                <a href="gif-suite.html" class="images-rotation"
+                    data-images='["/images/gif-suite-square.jpg", "/images/transform/gif-1.jpg", "/images/transform/gif-2.jpg", "/images/transform/gif-3.jpg", "/images/transform/gif-4.jpg", "/images/transform/gif-5.jpg", "/images/transform/gif-6.jpg"]'>
+                    <img src="images/gif-suite-square.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="column">
+
+        <div class="img work-nuns roundel-img">
+            <div class="picture-frame">
+                <img src="images/roundels/neon-cigarettes.svg" class="roundel-right"></img>
+                <a href="nuns.html" class="images-rotation"
+                    data-images='["/images/nuns-poster-main.jpg", "/images/transform/nuns-hands.jpg", "/images/transform/nuns-cross.jpg", "/images/transform/nuns-pray.jpg", "/images/transform/nuns-rose.jpg"]'>
+                    <img src="images/nuns-poster-main.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+        <div class="img work-racism">
+            <div class="picture-frame">
+                <a href="anti-racism.html" class="images-rotation"
+                    data-images='["/images/racism-square.jpg", "/images/transform/racism-tv.jpg", "/images/transform/racism-infographic.jpg", "/images/transform/racism-characters.jpg", "/images/transform/racism-blackface.jpg", "/images/transform/racism-stereotypes.jpg"]'>
+                    <img src="images/racism-square.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+        <div class="img work-student-survey">
+            <div class="picture-frame">
+                <a href="student-survey.html" class="images-rotation"
+                    data-images='["/images/survey-portrait.jpg", "/images/transform/survey-1.jpg", "/images/transform/survey-2.jpg", "/images/transform/survey-3.jpg"]'>
+                    <img src="images/survey-portrait.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+        <div class="img work-leica">
+            <div class="picture-frame">
+                <a href="leica.html" class="images-rotation"
+                    data-images='["/images/leica-vertical.jpg", "/images/transform/leica-2.jpg", "/images/transform/leica-3.jpg"]'>
+                    <img src="images/leica-vertical.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="img work-brains roundel-img">
+            <div class="picture-frame">
+                <img src="images/roundels/be-kind.svg" class="roundel"></img>
+                <a href="brains.html" class="images-rotation"
+                    data-images='["/images/brains-stickers.jpg", "/images/transform/brains-1.jpg", "/images/transform/brains-2.jpg", "/images/transform/brains-3.jpg", "/images/transform/brains-4.jpg", "/images/transform/brains-5.jpg"]'>
+                    <img src="images/brains-stickers.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="img work-bike">
+            <div class="picture-frame">
+                <a href="bike-theft.html" class="images-rotation"
+                    data-images='["/images/bike-neon-8.png", "/images/bike-neon-6.png", "/images/bike-neon-5.png", "/images/bike-neon-4.png", "/images/bike-neon-3.png", "/images/bike-neon-1.png"]'>
+                    <img src="images/bike-neon-8.png" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="img work-martins-dream">
+            <div class="picture-frame">
+                <a href="martins-dream.html" class="images-rotation"
+                    data-images='["/images/martin-open-book.jpg", "/images/transform/martin-poster.jpg", "/images/transform/martin-book.jpg"]'>
+                    <img src="images/martin-open-book.jpg" id="img-1"></img>
+                </a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</div>
+
+<hr>
+
+
+
+<div class="work-sub-heading">
+    <h6>Sometimes, <br> I just like to play.</h6>
+</div>
+
+<div class="row play-grid">
+    <div class="column">
+
+
+        <div class="work-small-caption small-caption">
+            <p>These aren’t full case studies, just other projects and Work in Progresses I’ve been working on.
+            </p>
+        </div>
+
+        <div class="img work-meal-planning">
+            <div class="picture-frame">
+                <img src="images/meal-planning.jpg"></img>
+            </div>
+              <figcaption>All food photography sourced from bonappetit.com
+            </figcaption>
+        </div>
+
+        <div class="img work-peau">
+            <div class="picture-frame">
+                <img src="images/peau.jpg"></img>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="column">
+        <div class="img work-art-class">
+            <div class="picture-frame">
+                <img src="images/art-class.jpg"></img>
+            </div>
+        </div>
+
+        <div class="img work-culture-book">
+            <div class="picture-frame">
+                <img src="images/the-culture-book.gif"></img>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
+</body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
+
+</html>

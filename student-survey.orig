@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel='stylesheet' href='/stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="/javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="/">home</a></li>
+    <li class="menu-work"><a href="/work">work</a></li>
+    <li class="menu-about"><a href="/about">about</a></li>
+    <li class="menu-contact"><a href="/contact">contact</a></li>
+</ul>
+
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title title-more-leading">Help Us Out!</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">convincing students (to do something really boring).</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>client</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The University of Sheffield</td>
+                <td>Illustration / Digital and Print Campaign Creation</td>
+                <td>Animation / Student Communication / Surveys</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <div class="row-1 centre-img">
+            <div class="picture-frame">
+                <img src="/images/survey-a3.jpg"></img>
+            </div>
+            <figcaption>The little characters share their opinions as they work together.
+            </figcaption>
+        </div>
+
+        <div class="row-2 caption">
+            <table class="caption-table caption-1">
+                <thead>
+                    <tr>
+                        <th class="main-head">help us help you</th>
+                        <th class="number-head">one</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">As part of The University of Sheffield’s wider goal to better involve students
+                            in their educational experience, we wanted to gather student feedback on our work. No one
+                            likes filling in surveys, so I focused on the feedback being crucial to helping give
+                            participants a better university experience — help us help you.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="centre">
+                <div class="seperator seperator-1"></div>
+            </div>
+
+            <table class="caption-table caption-2">
+                <thead>
+                    <tr>
+                        <th class="main-head">help us help you</th>
+                        <th class="number-head">two</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">The little characters all offer their feedback and work together to help to
+                            build the campaign. The project encompassed print and digital, being displayed across campus
+                            on plasma screens and over social media. All animation was provided by my co-worker <a
+                                href="http://www.kieranbentley.com/"> Kieran
+                                Bentley.</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="row-3 photo-grid">
+
+            <div class="photo-grid-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="/images/roundels/scrub.svg" class="roundel"></img>
+                        <img src="/images/gifs/survey-1.gif"></img>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="/images/gifs/survey-2.gif"></img>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="photo-grid-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="/images/gifs/survey-3.gif"></img>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="/images/gifs/survey-4.gif"></img>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row-4 medium-left-img-2">
+            <div class="picture-frame">
+                <img src="/images/gifs/survey-portrait.gif"></img>
+            </div>
+            <figcaption>The animated versions filled digital screens across campus and on social media.
+            </figcaption>
+        </div>
+
+        <div class="row-4 large-right-img top-margin">
+            <div class="picture-frame">
+                <img src="/images/gifs/survey-landscape.gif"></img>
+            </div>
+            <figcaption>My favourite is the lil guy with the shovel and cement mixer.
+            </figcaption>
+        </div>
+
+        <div class="row-5 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
+
+            <div class="go-back centre">
+                <p><a href="work">go back to view more of my work</a></p>
+            </div>
+
+        </div>
+
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
+
+    </div>
+
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
+</body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
+
+</html>

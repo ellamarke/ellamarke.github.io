@@ -2,163 +2,278 @@
 <html>
 
 <head>
-    <title>
-        Ella Marke | My Work
-    </title>
-    <link rel="shortcut icon" type="image/png" href="images/Favicon-01.png">
-    <link href="main.css" type="text/css" rel="stylesheet">
-
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <link rel='stylesheet' href='stylesheets/main.css' />
+  <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascripts/jquery.images-rotation.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="http://localhost:3000/site.webmanifest">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
+  <div><div class="ticker-parent">
+    <div class="ticker-tape">
+        <div class="ticker-list">
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+            <span>I'm Ella Marke /</span>
+        </div>
+    </div>
+</div></div>
+  <div class="content-menu">
+    <div><ul class="navigation">
+    <li class="menu-home"><a href="index.html">home</a></li>
+    <li class="menu-work"><a href="work.html">work</a></li>
+    <li class="menu-about"><a href="about.html">about</a></li>
+    <li class="menu-contact"><a href="contact.html">contact</a></li>
+</ul>
 
-            <div class="name">
-                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                <h2>
-                    <a href="index.html">GRAPHIC DESIGNER / COPYWRITER</a>
-                </h2>
+<script>
+    $(function () {
+        if ($('.page-intro.about').length == 1) {
+            $('.menu-about a').addClass('active')
+            $('.content').addClass('about')
+            $('.content-menu').addClass('about')
+        }
+        else if ($('.page-intro.contact').length == 1) {
+            $('.menu-contact a').addClass('active')
+            $('.content').addClass('contact')
+            $('.content-menu').addClass('contact')
+        }
+        else if ($('.page-intro.home').length == 1) {
+            $('.menu-home a').addClass('active')
+            $('.content').addClass('home')
+            $('.content-menu').addClass('home')
+
+        } else {
+            $('.menu-work a').addClass('active')
+            $('.content').addClass('work')
+            $('.content-menu').addClass('work')
+        }
+    });
+</script></div>
+    <div class="content"><div class="page-intro">
+    <h1 class="title title-more-leading">NUNS.</h1>
+
+    <div class="title-seperator"></div>
+
+    <h3 class="sub-heading">sisters with bad habits.</h3>
+
+    <table class="project-table">
+        <thead>
+            <tr>
+                <td>client</td>
+                <td>skills used</td>
+                <td>key words</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dutch Dame Production and She's Diverse</td>
+                <td>Photo Editing / Digital Illustration / Branding</td>
+                <td>Theatre / Marketing / Neon</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="wrapper">
+    <div class="case-study">
+
+        <div class="row-1 centre-img">
+            <div class="picture-frame">
+                <img src="images/nuns-poster-main.jpg"></img>
             </div>
-
-            <ul class="nav">
-                <li>
-                    <h2><a href="index.html">Home</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2 class="open"><a href="my-work.html">My Work</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="about-me.html">About Me</a></h2>
-                    <h2>/</h2>
-                </li>
-                <li>
-                    <h2><a href="contact-me.html">Contact Me</a>
-                    </h2>
-                </li>
-            </ul>
+            <figcaption>The duotone approach to the neon-lit portrait highlights the core differences between the two
+                protagonists of the play.
+            </figcaption>
         </div>
 
-
-
-        <div class="project-grid">
-
-            <div class="project-intro-1 row-1">
-                <p class="project-title">
-                    <span class="project-name">NUNS Marketing Materials.</span>
-                </p>
-                <h2>Marketing materials for NUNS, a new play about nuns and bad behaviour.</h2>
-                <p></p>
-
-
-                <div class="client">
-                    CLIENT: DUTCH DAME PRODUCTION X SHE'S DIVERSE.
-                </div>
-
-                <p>I was approached to create the posters, programmes and further print and digital marketing materials
-                    for NUNS,
-                    an exciting new production with an all-woman cast and production team.
-                    Photographer <span class="inline-link"><a href="http://elisedumontet.com/">Elise Dumontet</a></span>
-                    provided me with beautiful photos of the cast which I edited to create
-                    a coloured neon glow, reflecting the artificial light of the neon illustrations that surround them.
-                </p>
-
-                </p>
+        <div class="row-2 caption">
+            <table class="caption-table caption-1">
+                <thead>
+                    <tr>
+                        <th class="main-head">nuns, cigarettes and neon lights</th>
+                        <th class="number-head">one</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">I was approached to create the posters, programmes and further print and digital
+                            marketing materials for NUNS, an exciting new production with an all-woman cast and
+                            production team. Photographer <a href="https://www.elisedumontet.com/">Elise Dumontet</a>
+                            provided me with beautiful photos of the cast, which I edited to create a coloured neon glow, reflecting the artificial light of the neon
+                            illustrations that surround them.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="centre">
+                <div class="seperator seperator-1"></div>
             </div>
 
-            <div class="project-intro-2">
-                <p></p>
-                <p>I designed a selection of neon lights to be used throughout the marketing material. I was
-                    particularly inspired by kitschy Catholic art and decor, alongside signage for traditionally
-                    feminine spaces: nails salons and beauty parlours.
-                </p>
-                </p>
+            <table class="caption-table caption-2">
+                <thead>
+                    <tr>
+                        <th class="main-head">nuns, cigarettes and neon lights</th>
+                        <th class="number-head">two</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2"> I designed a selection of neon lights to be used throughout the marketing
+                            material. I was particularly inspired by kitschy Catholic art and decor, alongside signage
+                            for traditionally feminine spaces: nails salons and beauty parlours.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row-3 medium-left-img roundel-img">
+            <div class="picture-frame">
+                <img src="images/roundels/neon.svg" class="roundel"></img>
+                <img src="images/nuns-hands.jpg"></img>
             </div>
+            <figcaption>The dark comedy features rebellious nuns fighting for their right to cigarette breaks.
+            </figcaption>
+        </div>
 
-
-            <div class="head-img">
-                <figure>
-                <img src="images/work/small-size/nuns-poster-bg.jpg" alt="main nuns poster">
-                <figcaption>The duotone approach to the neon-lit portrait highlights the core differences between the two protaganists of the play.</figcaption>
-            </figure>
+        <div class="row-3 small-right-img top-margin">
+            <div class="picture-frame">
+                <img src="images/nuns-original.jpg"></img>
             </div>
+            <figcaption>The unedited photo before I created the neon lights and hot, vivid colouring,
+            </figcaption>
+        </div>
+
+        <h5 class="row-4 quote">"Sister, we're just having a bit of fun!"</h5>
 
 
-            <div class="large-img">
-                <img src="images/work/small-size/nuns-website.jpg" alt="marketing materials for the website">
-            </div>
 
-            <div class="quarter-imgs">
+        <div class="row-5 photo-grid">
 
-                <div class="quarter-img-1">
-                    <img src="images/work/small-size/nuns-neon-1.jpg" alt="a neon light illustration">
+            <div class="photo-grid-column">
+
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/nuns-neon-2.jpg"></img>
+                    </div>
                 </div>
 
-                <div class="quarter-img-2">
-                    <img src="images/work/small-size/nuns-neon-2.jpg" alt="a neon light illustration">
-                </div>
-
-                <div class="quarter-img-3">
-                    <img src="images/work/small-size/nuns-neon-3.jpg" alt="a neon light illustration">
-                </div>
-
-                <div class="quarter-img-4">
-                    <img src="images/work/small-size/nuns-neon-4.jpg" alt="a neon light illustration">
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/nuns-neon-4.jpg"></img>
+                    </div>
                 </div>
 
             </div>
 
+            <div class="photo-grid-column">
 
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/nuns-neon-1.jpg"></img>
+                    </div>
+                </div>
 
-            <div class="thanks">
-                <p><span class="para-intro">Thanks for taking a look at this project!</span></p>
-                <p><a href="my-work.html"> <span class="inline-link">Go back</span></a> to see more of my work.</p>
+                <div class="img">
+                    <div class="picture-frame">
+                        <img src="images/nuns-neon-3.jpg"></img>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
+        <div class="row-6 thanks-back">
+            <h4 class="thanks">Thanks for taking a look at this project!</h4>
 
-
-        <footer>
-            <div class="contact-links">
-                <h1>Contact me!</h1>
-                <ul class=footer-nav>
-                    <li>
-                        <h2><a href="https://www.instagram.com/ellamarkedesign/" target="_blank">Instagram</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://the-dots.com/users/ella-marke-294185" target="_blank">The Dots</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.behance.net/ellamarke" target="_blank">Behance</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href="https://www.linkedin.com/in/ellamarke/" target="_blank">LinkedIn</a></h2>
-                        <h2>/</h2>
-                    </li>
-                    <li>
-                        <h2><a href=mailto:ella.me.marke@gmail.com>Email</a></h2>
-                        <h2>
-                    </li>
-                </ul>
+            <div class="go-back centre">
+                <p><a href="work.html">go back to view more of my work</a></p>
             </div>
 
-            <div class=contact-details>
-                <p>+44 7805 760 380</p>
-                <p><a href=mailto:ella.me.marke@gmail.com>ella.me.marke@gmail.com</a></p>
-            </div>
+        </div>
 
-        </footer>
+    </div>
+</div></div>
+  </div>
+  <div><div class="footer">
+    <h4 class="lets-talk">Sure, let's talk.</h4>
+
+    <div class="contact-table">
+<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
+
+        <ul>
+            <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
+            <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
+            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+        </ul>
 
     </div>
 
+    <div class="designed-by">
+        <p>website designed and coded by me</p>
+    </div>
+</div></div>
 </body>
+
+
+<script>
+  function iOS() {
+    return [
+      'iPad Simulator',
+      'iPhone Simulator',
+      'iPod Simulator',
+      'iPad',
+      'iPhone',
+      'iPod'
+    ].includes(navigator.platform)
+    // iPad on iOS 13 detection
+    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+  }
+  $(function () {
+    if (!iOS()) {
+      $('.images-rotation').imagesRotation({interval: 400, intervalFirst: 200})
+      $('.images-rotation').mouseleave(function() {
+        var images = JSON.parse($(this ).attr("data-images"))
+        if (images && images[0]) {
+          $( "img", this ).attr("src", images[0])
+        }
+      })
+      $('.images-rotation img').click(function() {
+        $('.images-rotation').imagesRotationRemove()
+      })
+    }
+  });
+</script>
 
 </html>
