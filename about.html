@@ -2,8 +2,8 @@
 <html>
 
 <head>
-  <title>Ella Marke | Designer &amp; Copywriter</title>
-  <link rel='stylesheet' href='stylesheets/main.css%3Fv=3.css' />
+  <title>Ella Marke | Designer &amp; Web Developer</title>
+  <link rel='stylesheet' href='stylesheets/main.css%3Fv=4.css' />
   <link rel="stylesheet" href="https://use.typekit.net/rwq8aci.css">
   <meta name="viewport" content="width=device-width, initial-scale=0.8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -93,9 +93,6 @@
 
 <div class="main-grid">
 
-
-
-
     <div class="row-1 caption double-caption">
         <table class="caption-table caption-1">
             <thead>
@@ -106,14 +103,12 @@
             </thead>
             <tbody>
                 <tr>
-                    <td colspan="2">Through a strong conviction that design is a powerful tool, I believe that all
-                        projects can have a positive impact, no matter how small. Whether it's marketing design which
-                        encourages a new
+                    <td colspan="2">I'm convinced that thoughtful design is a powerful tool that can create positive
+                        impact across all projects, no matter how small. Whether it's branding which encourages a new
                         audience to <a href="nuns.html">get excited by theatre,</a> video production which
                         <a href="anti-racism.html">confronts racism in higher education </a>or discovering radical new ways
                         to <a href="mixing-bowl.html">tackle food
-                            poverty</a>, many of my projects question how design can
-                        make a difference.
+                            poverty</a>, many of my projects question how design can (genuinely) make a difference.
                     </td>
                 </tr>
             </tbody>
@@ -132,9 +127,10 @@
             <tbody>
                 <tr>
                     <td colspan="2">I use a rich, research-led process. It's important to me that all the work I produce
-                        doesn't just look great, but comes from a smart concept led by loads of contextual research. If
+                        doesn't just look great, but comes from a smart concept led by loads of contextual and user
+                        research. If
                         you want to see case studies of how I've applied research to my work in the past, <a
-                            href="work.html"> find examples here. </a>
+                            href="work.html">find examples here. </a>
                     </td>
                 </tr>
             </tbody>
@@ -147,11 +143,51 @@
         </div>
     </div>
 
-    <div class="row-2 medium-right-img-3 roundel-img top-margin bottom-margin">
+    <div class="row-2 medium-right-img-3 roundel-img top-margin">
         <div class="picture-frame">
             <img src="images/roundels/hey.svg" class="roundel"></img>
             <img src="images/about-notebook.jpg"></img>
         </div>
+    </div>
+    <div class="row-3 caption bottom-margin">
+        <table class="caption-table caption-1">
+            <thead>
+                <tr>
+                    <th class="main-head">My design toolkit</th>
+                    <th class="number-head">one</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">I'm proficient across much of the Adobe Creative Suite, but am particularly within
+                        my happy place when using Illustrator, Photoshop and inDesign, with XD, inVision and Sketch for
+                        UI design and prototyping.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="centre">
+            <div class="seperator seperator-1"></div>
+        </div>
+
+        <table class="caption-table caption-2">
+            <thead>
+                <tr>
+                    <th class="main-head">My development toolkit</th>
+                    <th class="number-head">two</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        I've been developing my skills across JavaScript ES6, ReactJS, CSS3, SASS, HTML and Node.js,
+                        whilst testing with Cypress and Jest, using GitHub and deploying to Heroku.
+
+                        I'm on a forever mission to learn new things, so the lists are ever-growing.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 
@@ -228,7 +264,7 @@
         </tbody>
     </table>
 
-     <div class="seperator"></div>
+    <div class="seperator"></div>
 
     <table class="testimonial testimonial-4">
         <thead>
@@ -253,12 +289,11 @@
     <h4 class="lets-talk">Sure, let's talk.</h4>
 
     <div class="contact-table">
-<!-- <img src="/images/roundels/lets-talk.svg" class="footer-roundel"></img> -->
 
         <ul>
             <li class="mail"> <a href="mailto:ella.me.marke@gmail.com">email me</a> </li>
             <li class="instagram"> <a href="https://www.instagram.com/ellamarkedesign/">instagram me</a> </li>
-            <li class="linkedin"> <a href="https://www.linkedin.com/in/ellamarke/">link with me</a> </li>
+            <li class="linkedin"> <a href="https://github.com/ellamarke">visit my github</a> </li>
         </ul>
 
     </div>
@@ -280,19 +315,19 @@
       'iPhone',
       'iPod'
     ].includes(navigator.platform)
-    // iPad on iOS 13 detection
-    || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+      // iPad on iOS 13 detection
+      || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
   }
   $(function () {
     if (!iOS()) {
-      $('.images-rotation').imagesRotation({interval: 700, intervalFirst: 200})
-      $('.images-rotation').mouseleave(function() {
-        var images = JSON.parse($(this ).attr("data-images"))
+      $('.images-rotation').imagesRotation({ interval: 700, intervalFirst: 200 })
+      $('.images-rotation').mouseleave(function () {
+        var images = JSON.parse($(this).attr("data-images"))
         if (images && images[0]) {
-          $( "img", this ).attr("src", images[0])
+          $("img", this).attr("src", images[0])
         }
       })
-      $('.images-rotation img').click(function() {
+      $('.images-rotation img').click(function () {
         $('.images-rotation').imagesRotationRemove()
       })
     }
